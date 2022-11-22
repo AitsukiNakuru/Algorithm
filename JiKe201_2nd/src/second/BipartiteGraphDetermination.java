@@ -18,7 +18,7 @@ public class BipartiteGraphDetermination {
             dotList.get(start).adjoinList.addLast(end);
             dotList.get(end).adjoinList.addLast(start);
         }
-        //dotList.get(1).flag = 1;
+
         Graph graph = new Graph(dotList);
 
         for (int i = 1 ; i <= n ; i++) {
